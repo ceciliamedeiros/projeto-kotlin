@@ -26,3 +26,7 @@ Executa o servidor Web:
 ```
 kotlin -cp ktor.jar:. ServidorKt
 ```
+Observações: 
+1) Provavelmente no windows o ":" deve ser substituido por ";"
+2) Importar o arquivo "jar" pode gerar um warning de conflito de versões. Este warning pode ser ignorado.
+
