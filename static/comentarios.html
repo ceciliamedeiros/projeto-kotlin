@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Avaliação</title>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style-comentarios.css" />
+    <script src="https://cdn.jsdelivr.net/npm/kotlin@1.5.31/kotlin.min.js"></script>
+    <script src="/FrontEnd.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <section>
+        <div class="circle"></div>
+    </section>
+
+    <header>
+        <a href="#"><img src="img/logoofc.png" class="logo" alt=""></a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/receitas">Nossas receitas</a></li>
+            <li><a href="/sugestoes">Mande sua receita</a></li>
+            <li><a href="/comentarios">Nos avalie</a></li>
+        </ul>
+    </header>
+
+    <div style="margin-left: 560px;">
+        <h1>Avalie-nos!</h1>
+    </div>
+    <br>
+
+    <form method="POST" action="/enviarComentarios" style="margin-left: 500px">
+        <div>Seu Nome:
+            <input name="nome" type="text"></input>
+        </div>
+        <br>
+        Comentário:
+        <div>
+            <textarea id="texto" name="texto" rows="20" cols="40"></textarea>
+        </div>
+
+        <button class="form-submit-button">Enviar</button>
+
+
+    </form>
+
+    <div class="star-rating">
+        <input type="radio" name="stars" id="star-a" value="5" />
+        <label for="star-a"></label>
+
+        <input type="radio" name="stars" id="star-b" value="4" />
+        <label for="star-b"></label>
+
+        <input type="radio" name="stars" id="star-c" value="3" />
+        <label for="star-c"></label>
+
+        <input type="radio" name="stars" id="star-d" value="2" />
+        <label for="star-d"></label>
+
+        <input type="radio" name="stars" id="star-e" value="1" />
+        <label for="star-e"></label>
+    </div>
+
+</body>
+
+</html>

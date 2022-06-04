@@ -1,8 +1,0 @@
-Joao;445632;445632
-Joao;445632;445632
-Luis;12123;Professor
-Joao;231123;Estudante
-Maria;32532;Professor
-Luis ; 123 ; superusuario
-Luis;121;administrador;1;Estudante
-julia;4435;Estudante

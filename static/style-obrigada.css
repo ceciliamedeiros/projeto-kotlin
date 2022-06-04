@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,200;1,300;1,400&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.voltar{
+    background: #22142b;
+  
+  color: white;
+  
+  border-style: outset;
+  
+  border-color: #22142b;
+  
+  height: 40px;
+  
+  width: 140px;
+  
+  font: bold 15px arial, sans-serif;
+  
+  text-shadow:none;
+}
